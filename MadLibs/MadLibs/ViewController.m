@@ -43,7 +43,7 @@
     NSString *v4 = self.verb4.text;
     NSString *n7 = self.noun7.text;
     
-    NSString *infoText = [NSString stringWithFormat:@"The following is the full text of President Obama’s victory speech on Wednesday (Transcript courtesy of the Federal News Service).\n\n PRESIDENT BARACK OBAMA: Thank you. Thank you. Thank you so much. (Sustained cheers, applause.)\n\nTonight, more than 200 years after a former colony won the right to determine its own %@, the task of perfecting our %@ moves forward. (Cheers, applause.)\n\nIt moves forward because of %@. It %@ forward because you reaffirmed the spirit that has %@ over war and depression, the spirit that has lifted this country from the depths of %@ to the great %@ of hope, the belief that while each of us will pursue our own %@ %@, we are an American family, and we %@ or %@ together as one %@ and as one people. (Cheers, applause.)\n\n", n1, n2, n3, v1, v2, n4, n5, adj, n6, v3, v4, n7];
+    NSString *infoText = [NSString stringWithFormat:@"PRESIDENT BARACK OBAMA: Thank you. Thank you. Thank you so much. (Sustained cheers, applause.)\n\nTonight, more than 200 years after a former colony won the right to determine its own %@, the task of perfecting our %@ moves forward. (Cheers, applause.)\n\nIt moves forward because of %@. It %@ forward because you reaffirmed the spirit that has %@ over war and depression, the spirit that has lifted this country from the depths of %@ to the great %@ of hope, the belief that while each of us will pursue our own %@ %@, we are an American family, and we %@ or %@ together as one %@ and as one people. (Cheers, applause.)\n\n", n1, n2, n3, v1, v2, n4, n5, adj, n6, v3, v4, n7];
     
     self.noun1.hidden = YES;
     self.noun2.hidden = YES;
